@@ -32,7 +32,7 @@ public class ConvertDemo02 {
 		while(null != (info = br.readLine())) {
 			bw.write(info + "\r\n");
 			System.out.println(info);
-		}
+		}//
 		bw.flush();
 		bw.close();
 		br.close();
